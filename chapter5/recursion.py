@@ -13,7 +13,8 @@ def square(num, iteration = 0, result = 0):
     if iteration == num:
         return result
 
-    return square(num, iteration + 1, result + num)
+    return square(num, iteration + 1, \
+                  result + num)
 
 print("Square:", square(10))
 

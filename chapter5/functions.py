@@ -19,7 +19,7 @@
 #     class MyClass():
 #         def __init__(self):
 #             self.x = "yo"
-    
+
 #     c = MyClass()
 
 #     return other_function() + c.x

@@ -1,4 +1,4 @@
-from . import py1
+import py1
 
 def print_names():
     print("py2's name is:", __name__)

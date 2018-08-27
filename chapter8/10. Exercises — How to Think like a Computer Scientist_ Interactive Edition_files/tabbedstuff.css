@@ -1,0 +1,12 @@
+.tab-pane {
+    padding: 20px 15px 10px 15px;
+}
+
+[role="tabpanel"] {
+    background-color: #fff;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+}

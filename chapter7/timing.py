@@ -4,7 +4,7 @@ import time
 values = []
 
 counter = 0
-percent_invalid = .1
+percent_invalid = .5
 num_values = 10000
 total_invalid = percent_invalid * num_values
 
@@ -32,8 +32,8 @@ for i in values:
 total_if = 0
 for i in values:
     start = time.perf_counter_ns()
-    if i == 1:
-    # if type(i) == int:
+    # if i == 1:
+    if type(i) == int:
         i + 1
     else:
         i + "1"

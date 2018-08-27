@@ -68,6 +68,7 @@ if __name__ == '__main__':
     #     "try/except": try_except,
     #     "try/except/else": "this is not a function",
     #     "try/except/except": try_except_except,
+    #     "try/except/finally": 1
     # }
 
     # Good options

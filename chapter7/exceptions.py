@@ -64,21 +64,21 @@ def try_except_finally():
 
 if __name__ == '__main__':
     # Bad Options
-    # options = {
-    #     "try/except": try_except,
-    #     "try/except/else": "this is not a function",
-    #     "try/except/except": try_except_except,
-    #     "try/except/finally": 1
-    # }
-
-    # Good options
     options = {
         "try/except": try_except,
-        "try/except/else": try_except_else,
+        "try/except/else": "this is not a function",
         "try/except/except": try_except_except,
-        "try/except/try/except": try_except_try_except,
-        "try/except/finally": try_except_finally
-        }
+        "try/except/finally": 1
+    }
+
+    # Good options
+    # options = {
+    #     "try/except": try_except,
+    #     "try/except/else": try_except_else,
+    #     "try/except/except": try_except_except,
+    #     "try/except/try/except": try_except_try_except,
+    #     "try/except/finally": try_except_finally
+    #     }
 
     menu = menu.Menu(options)
     menu.startMenu()

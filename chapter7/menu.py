@@ -30,7 +30,7 @@ class Menu():
             try:
                 selection = int(selection) - 1
                 message = self.functions[selection]()
-                print(f"\nResult: '{message}'")
+                print("\nResult: '{}'".format(message))
             except:
                 print("\nInvalid input.")
             finally:

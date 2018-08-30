@@ -104,16 +104,3 @@ data = "'name' 'Michael Giacchinno' 'age' '50' 'birthday' '1967-10-10' 'other_ke
 
 o = Parser.parse(data, SimpleClass)
 o.print_hello()
-
-
-
-x = 0
-while x < 5:
-    print(x)
-    x += 1
-
-original = "this is a string"
-index = 0
-while original[index] != ' ' and index < len(original):
-    index += 1
-print("First space occurs at index", index)

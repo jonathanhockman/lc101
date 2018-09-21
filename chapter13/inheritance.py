@@ -18,11 +18,17 @@ class Car(Vehicle):
     Vehicle.__init__(self, make, model)
     self.num_doors = num_doors
 
+  def __str__(self):
+    return "this is a different string"
 
-v = Vehicle('cat', 'zc100')
-c = Car('dodge', 'caravan', '4')
 
-print('c is v ? {}'.format(c is v))
-print('instance of Car is Vehicle? {}'.format(isinstance(c, Vehicle)))
-print(v)
-print(c)
+
+if __name__ == '__main__':
+  v = Vehicle('cat', 'zc100')
+  c = Car('dodge', 'caravan', '4')
+
+  print('c is v ? {}'.format(c is v))
+  print('instance of Car is Vehicle? {}'.format(isinstance(c, Vehicle)))
+
+  print(v)
+  print(c)
